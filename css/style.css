@@ -1,0 +1,309 @@
+
+
+@media screen and (min-width: 900px){
+
+
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  font-size: 0.8em;
+}
+
+
+
+header{
+  height: 60px;
+}
+
+nav{
+  display: inline-block;
+  float: right;
+}
+
+
+
+footer{
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #D2DCDB;
+}
+
+.position_droite{
+  float: right;
+  margin-right: 32px;
+  margin-top: 13px;
+}
+
+.position_gauche{
+  margin-left: 30px;
+  margin-top: 13px;
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+/* */
+a:hover{
+
+  text-decoration: underline;
+
+}
+
+
+
+/* */
+header a{
+  margin-right: 20px;
+}
+
+
+footer a{
+  display: inline-block;
+}
+
+
+
+.connexion{
+  display: inline-block;
+  width: 100px;
+  height: 24px;
+  background-color: #4584ee;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-right: 30px;
+  margin-top: 16px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+a.connexion:hover{
+  color:white;
+  text-decoration: none;
+}
+
+
+
+#bouton_menu{
+position: relative;
+height: 17px;
+width: 17px;
+display: inline-block;
+margin-right: 20px;
+
+}
+
+.bouton_menu{
+  height: 17px;
+  width: 17px;
+
+}
+
+
+
+
+.barre_recherche a{
+  display: inline-block;
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 150px;
+  height: 26px;
+  margin-top: 30px;
+  margin-left: 2px;
+  padding-top: 11px;
+}
+
+.boutons_recherche{
+  width: 310px;
+  margin: 3px auto;
+}
+
+.image_google{
+  width: 290px;
+  margin: 125px auto 0 auto;
+  font-weight: bold;
+}
+
+.barre_recherche{
+  width: 590px;
+  margin: 13px auto 0 auto;
+}
+
+input{
+  display: block;
+  border-style: solid;
+  width: 590px;
+  height: 35px;
+  border: 2px solid  #f0f0f0;
+}
+
+
+
+
+
+
+@media screen and (min-width: 451px) and (max-width: 899px){
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  font-size: 0.8em;
+}
+
+/* HEADER */
+
+header{
+  height: 65px;
+}
+
+nav{
+  display: inline-block;
+  float: right;
+}
+
+
+
+footer{
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #D2DCDB;
+}
+
+.position_droite{
+  display: none;
+  float: right;
+  margin-right: 32px;
+  margin-top: 13px;
+}
+
+.position_gauche{
+  margin-left: 30px;
+  margin-top: 13px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+header a{
+  margin-right: 20px;
+}
+
+
+footer a{
+  display: inline-block;
+}
+
+
+
+.connexion a :hover{
+  text-decoration: none;
+
+  color:white;
+
+}
+
+
+
+#bouton_menu{
+position: relative;
+height: 17px;
+width: 17px;
+display: inline-block;
+margin-right: 20px;
+
+}
+
+.bouton_menu{
+  height: 17px;
+  width: 17px;
+
+}
+
+
+
+.barre_recherche a{
+  display: inline-block;
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 150px;
+  height: 26px;
+  margin-top: 30px;
+  margin-left: 2px;
+  padding-top: 11px;
+}
+
+
+
+.image_google{
+  width: 290px;
+  margin: 125px auto 0 auto;
+  font-weight: bold;
+}
+
+.barre_recherche{
+  width: 442px;
+  margin: 13px auto 0 auto;
+}
+
+input{
+  display: block;
+  border-style: solid;
+  width: 440px;
+  height: 35px;
+  border: 2px solid  #f0f0f0;
+}
+}
+
+
+
+
+/* boutons recherche et j'ai de la chance   */
+
+
+.button1,.button2{
+  position: relative;
+  height: 30px;
+  padding: 0px 8px;
+  border:0px;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  right:-180px;
+  bottom:-10px;
+  color: #494444;
+  width: 150px;
+  margin: 3px auto;
+  display: inline-block;
+}
+
+.button1:hover,.button2:hover{
+  border: 1px solid #CCCCCC;
+  color: black;
+}
+
+
+a:hover {
+color: black;
+}
+
+/* Fin boutons recherches et j'ai de la chance   */
